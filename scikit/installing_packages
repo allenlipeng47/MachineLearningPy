@@ -1,0 +1,10 @@
+In Windows, installing packages maybe difficult. Here are the ways of installation.
+SciPy,
+According to http://stackoverflow.com/questions/28190534/windows-scipy-install-no-lapack-blas-resources-found,
+Download http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy, and do 'pip install scipy‑0.18.1‑cp27‑cp27m‑win_amd64.whl' locally
+
+Some packages can't be found by lower version pip, so do 'pip install --upgrade pip' to latest version
+
+cannot import name NUMPY_MKL error.
+This is because that we should install numpy+mkl bundled package.
+Download from here and install locally: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy

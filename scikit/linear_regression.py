@@ -15,4 +15,4 @@ regr = linear_model.LinearRegression()
 regr.fit(a, b)
 
 print regr.coef_    # slope
-print regr.intercept_   # interceptor
+print regr.intercept_   # intercept

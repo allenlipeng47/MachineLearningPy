@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn import linear_model, datasets
+from sklearn import linear_model
 
 X = np.array([
     [-3, -2],
